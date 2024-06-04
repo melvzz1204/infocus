@@ -1,0 +1,50 @@
+.main-container {
+  padding: 0 1rem;
+  display: flex;
+  gap: 3rem;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 2rem;
+}
+.content-posted-time{
+    opacity: 50%;
+    font-size: 0.8em;
+}
+.content-title{
+    font-size: 1.5em;
+}
+.content-paragraph{
+    margin-top: 30px;
+}
+.content-wrapper{
+    max-width: 50%;
+    margin-bottom: 70px;
+}
+.imgWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    position: relative;
+}
+.img1{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+.img2{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 5%;
+    left: 45%;
+    object-fit: cover;
+}
+.img3{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    object-fit: cover;
+}
